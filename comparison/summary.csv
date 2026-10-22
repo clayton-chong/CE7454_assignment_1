@@ -1,0 +1,8 @@
+run,epochs_done,best_epoch,best_geo_val_acc,geo_val_loss_at_best,clean_val_acc_at_best,clean_val_loss_at_best,geo_acc_real,geo_acc_model_a,geo_acc_model_b,train_minutes
+model_4 (reference),50,44,0.9300,0.3196,0.9707,0.2111,0.9320,0.9200,0.9380,95
+ablate_crop_align8,50,49,0.9387,0.2753,0.9920,0.1124,0.9300,0.9540,0.9320,94
+ablate_no_jpeg,50,9,0.6380,0.8408,0.6860,0.7692,0.6300,0.5600,0.7240,97
+ablate_no_rescale,50,47,0.9367,0.2884,0.9800,0.1682,0.9200,0.9400,0.9500,94
+ablate_no_rotation,50,48,0.9307,0.3074,0.9740,0.2039,0.9400,0.9160,0.9360,94
+ablate_std_stem,50,49,0.8313,0.4973,0.8640,0.4791,0.8160,0.8620,0.8160,23
+resnet18_full,50,49,0.8547,0.4423,0.8967,0.4077,0.8280,0.8780,0.8580,59

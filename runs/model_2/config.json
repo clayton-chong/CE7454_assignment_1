@@ -1,0 +1,32 @@
+{
+  "exp_name": "model_2",
+  "seed": 42,
+  "train_dir": "/Users/clayton/Desktop/NTU/Courses/CE7454/dev_phase/train",
+  "dev_dir": "/Users/clayton/Desktop/NTU/Courses/CE7454/dev_phase/dev",
+  "split_dir": "/Users/clayton/Desktop/NTU/Courses/CE7454/dev_phase/splits",
+  "run_dir": "/Users/clayton/Desktop/NTU/Courses/CE7454/dev_phase/runs",
+  "pred_dir": "/Users/clayton/Desktop/NTU/Courses/CE7454/dev_phase/predictions",
+  "val_per_class": 500,
+  "split_seed": 0,
+  "crop_size": 256,
+  "hflip": true,
+  "rot90": false,
+  "val_mode": "full",
+  "jpeg_p": 0.7,
+  "jpeg_q": [
+    80,
+    95
+  ],
+  "jpeg_subsampling": [
+    0,
+    2
+  ],
+  "batch_size": 64,
+  "val_batch_size": 32,
+  "num_workers": 6,
+  "epochs": 50,
+  "lr": 0.001,
+  "weight_decay": 0.05,
+  "warmup_epochs": 3,
+  "label_smoothing": 0.1
+}

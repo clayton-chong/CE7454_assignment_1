@@ -1,0 +1,10 @@
+checkpoint,epoch,val_set,loss,acc,acc_real,acc_model_a,acc_model_b
+runs/model_1/last.pt,49,clean,0.0621,0.9987,0.9980,1.0000,0.9980
+runs/model_1/last.pt,49,jpeg,0.1320,0.9887,1.0000,0.9700,0.9960
+runs/model_1/last.pt,49,geometric,2.0350,0.3367,0.9980,0.0080,0.0040
+runs/model_2/last.pt,49,clean,0.0741,0.9993,0.9980,1.0000,1.0000
+runs/model_2/last.pt,49,jpeg,0.0739,0.9993,0.9980,1.0000,1.0000
+runs/model_2/last.pt,49,geometric,1.9641,0.3407,0.9980,0.0120,0.0120
+runs/model_4/last.pt,49,clean,0.2048,0.9713,0.9640,0.9700,0.9800
+runs/model_4/last.pt,49,jpeg,0.3565,0.9113,0.9960,0.8540,0.8840
+runs/model_4/last.pt,49,geometric,0.3130,0.9240,0.9320,0.9180,0.9220

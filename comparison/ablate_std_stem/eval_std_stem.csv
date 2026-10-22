@@ -1,0 +1,9 @@
+checkpoint,epoch,set,loss,acc,acc_real,acc_model_a,acc_model_b
+best.pt,49,clean,0.4791,0.8640,0.9120,0.8280,0.8520
+best.pt,49,jpeg,0.5366,0.8107,0.9600,0.8020,0.6700
+best.pt,49,geometric,0.4973,0.8313,0.8160,0.8620,0.8160
+best.pt,49,test_real_ratio,,0.4567,,,
+last.pt,49,clean,0.4791,0.8640,0.9120,0.8280,0.8520
+last.pt,49,jpeg,0.5366,0.8107,0.9600,0.8020,0.6700
+last.pt,49,geometric,0.4973,0.8313,0.8160,0.8620,0.8160
+last.pt,49,test_real_ratio,,0.4567,,,
