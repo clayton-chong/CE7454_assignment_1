@@ -4,7 +4,7 @@
     jpeg      : re-saved at quality 90, 4:2:0, no geometric change   (splits/val_q90_sub2)
     geometric : fixed rescale / rotation / off-grid crop, then q90 4:2:0 (splits/val_geo_q90_sub2)
 
-    python eval_checkpoints.py                                   # model_1, model_2, model_4 best.pt
+    python eval_checkpoints.py                                   # model_1, model_2, model_4 last.pt
     python eval_checkpoints.py --ckpts runs/model_2/best.pt comparison/ablate_no_jpeg/best.pt
 
 Prints one line per checkpoint and set, plus confusion matrices with --cm, and writes eval_summary.csv.
